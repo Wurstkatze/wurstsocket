@@ -15,7 +15,7 @@ const validate = new Ajv().compile(schema)
 
 const logger = new Logger(true)
 
-const wss = new WebSocket.Server({ port: 8080 })
+const wss = new WebSocket.Server({ port: 3000 })
 let wsArray: WebSocket[] = []
 let clients: ClientObject = {}
 
